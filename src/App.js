@@ -1,17 +1,23 @@
+import React from "react";
+import Weather from "./Weather";
 import "./App.css";
-import Search from "./Search";
-import Footer from "./Footer";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Weather App</h1>
-        <Search />
-        <Footer />
-      </header>
+      <div className="container">
+        <Weather defaultCity="Kalamazoo" />
+        <footer>
+          This project was coded by Bri Franz-Jonas and is open source on {""}
+          <a
+            href="https://github.com/briology101/react-forecast"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
