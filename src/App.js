@@ -11,9 +11,7 @@ export default function App() {
           This project was coded by Bri Franz-Jonas and is open source on {""}
           <a
             href="https://github.com/briology101/react-forecast"
-            target="_blank"
-            rel="noreferrer"
-          >
+                     >
             GitHub
           </a>
         </footer>
